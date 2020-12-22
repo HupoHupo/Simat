@@ -1,0 +1,17 @@
+
+*.db
+*.opendb
+*.ipch
+*.obj
+*.log
+*.exe
+*.ilk
+*.pdb
+*.tlog
+*.txt
+*.idb
+*.sln
+*.vcxproj
+*.filters
+*.user
+Simat/.vs/Simat/v16/.suo
