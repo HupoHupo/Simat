@@ -15,7 +15,6 @@ extern void QPrint(const char *format,...)
     std::cout << buffer;
 }
 
-
 int main()
 {
 	using namespace QSpace;
