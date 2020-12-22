@@ -2,9 +2,7 @@
 #include <stdarg.h>
 #include "simat.h"
 
-namespace QSpace
-{
-extern void QPrint(uint8_t,const char *format,...)
+extern void QPrint(const char *format,...)
 {
     char buffer[1024];
     va_list p;
@@ -17,7 +15,6 @@ extern void QPrint(uint8_t,const char *format,...)
     std::cout << buffer;
 }
 
-}
 
 int main()
 {
